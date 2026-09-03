@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fiona Junita — Portfolio | Graphic Design & Illustration</title>
+  <meta name="description" content="Portfolio of Fiona Junita: Graphic Designer and Illustrator specializing in visual identity, character concept art, zine editorial design, and promotional media.">
+  
+  <!-- Google Fonts: Outfit & Space Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Sticky Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand" aria-label="Fiona Junita Home">
+        <img src="assets/signature.png" alt="Fiona Junita Signature" class="nav-sig">
+        <span class="brand-text">FIONA JUNITA</span>
+      </a>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#zine" class="nav-link">Zine: PIXELS</a>
+        <a href="#concept" class="nav-link">Concept Art</a>
+        <a href="#illustrations" class="nav-link">Illustrations</a>
+        <a href="#promotional" class="nav-link">Promotional</a>
+        <a href="#more-work" class="nav-link">Photo & Motion</a>
+        <a href="#contact" class="nav-link nav-cta">Get in Touch</a>
+      </nav>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-bg-layer" style="background-image: url('assets/hero_bg.png');">
+      <div class="hero-overlay"></div>
+    </div>
+
+    <!-- Diagonal Graphic Slice Accents -->
+    <div class="hero-slice slice-red"></div>
+    <div class="hero-slice slice-blue"></div>
+
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span> PORTFOLIO 2024
+        </div>
+        <h1 class="hero-title">
+          <span class="title-sub">CREATIVE WORKS OF</span>
+          <span class="title-main">FIONA JUNITA</span>
+        </h1>
+        <div class="hero-tagline">
+          <span class="tag-pill red-pill">GRAPHIC DESIGN</span>
+          <span class="tag-slash">/</span>
+          <span class="tag-pill blue-pill">ILLUSTRATION</span>
+        </div>
+        <p class="hero-desc">
+          Bringing imaginative concepts to life through bold visual identity, dynamic character art, editorial storytelling, and multidisciplinary design.
+        </p>
+        <div class="hero-actions">
+          <a href="#zine" class="btn btn-primary">
+            <span>Explore Projects</span>
+            <svg class="btn-arrow" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="Portfolio.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
+            <span>Original PDF</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-artwork-frame">
+          <img src="assets/characters/duality_battle.png" alt="Dual Anime Heroines Fantasy Battle Artwork" class="hero-artwork-img">
+          <div class="artwork-corner-tag">FEATURED ARTWORK</div>
+        </div>
+        <div class="hero-sig-wrapper">
+          <img src="assets/signature.png" alt="Fiona Signature Stamp" class="hero-sig-img">
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-indicator">
+      <a href="#about" aria-label="Scroll to About Section">
+        <span class="scroll-mouse">
+          <span class="scroll-wheel"></span>
+        </span>
+        <span class="scroll-text">SCROLL</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Table of Contents / Quick Jump Grid -->
+  <section class="toc-section">
+    <div class="section-container">
+      <div class="section-header-compact">
+        <span class="section-num">01</span>
+        <h2 class="compact-title">EXPLORE THE ARCHIVE</h2>
+      </div>
+      <div class="toc-grid">
+        <a href="#about" class="toc-card card-red">
+          <span class="toc-idx">01</span>
+          <div class="toc-info">
+            <h3>ABOUT ME</h3>
+            <p>Background, philosophy & contact info</p>
+          </div>
+          <span class="toc-arrow">&rarr;</span>
+        </a>
+        <a href="#skills" class="toc-card card-blue">
+          <span class="toc-idx">02</span>
+          <div class="toc-info">
+            <h3>SKILLS</h3>
+            <p>Software mastery & creative strengths</p>
+          </div>
+          <span class="toc-arrow">&rarr;</span>
+        </a>
+        <a href="#zine" class="toc-card card-dark">
+          <span class="toc-idx">03</span>
+          <div class="toc-info">
+            <h3>ZINE: PIXELS</h3>
+            <p>Comic strip, character profiles & interactive grid</p>
+          </div>
+          <span class="toc-arrow">&rarr;</span>
+        </a>
+        <a href="#concept" class="toc-card card-blue">
+          <span class="toc-idx">04</span>
+          <div class="toc-info">
+            <h3>CONCEPT ART</h3>
+            <p>Character turnarounds & logo iterations</p>
+          </div>
+          <span class="toc-arrow">&rarr;</span>
+        </a>
+        <a href="#illustrations" class="toc-card card-red">
+          <span class="toc-idx">05</span>
+          <div class="toc-info">
+            <h3>ILLUSTRATIONS</h3>
+            <p>Cosmic, celestial & anime digital paintings</p>
+          </div>
+          <span class="toc-arrow">&rarr;</span>
+        </a>
+        <a href="#promotional" class="toc-card card-dark">
+          <span class="toc-idx">06</span>
+          <div class="toc-info">
+            <h3>PROMOTIONAL</h3>
+            <p>Product packaging, booth posters & app UI</p>
+          </div>
+          <span class="toc-arrow">&rarr;</span>
+        </a>
+        <a href="#more-work" class="toc-card card-red">
+          <span class="toc-idx">07</span>
+          <div class="toc-info">
+            <h3>PHOTO & MOTION</h3>
+            <p>Studio photography & 2D puppet rigging</p>
+          </div>
+          <span class="toc-arrow">&rarr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="diagonal-banner banner-red">
+      <div class="banner-inner">
+        <span>ABOUT ME</span>
+        <span>•</span>
+        <span>FIONA JUNITA</span>
+        <span>•</span>
+        <span>GRAPHIC DESIGNER & ILLUSTRATOR</span>
+        <span>•</span>
+        <span>PORTFOLIO</span>
+      </div>
+    </div>
+
+    <div class="section-container about-grid">
+      <!-- Portrait Card with Angle Cuts -->
+      <div class="about-photo-wrapper">
+        <div class="photo-polygon-frame">
+          <img src="assets/profile_photo.png" alt="Fiona Junita Portrait" class="about-photo">
+          <div class="photo-badge">
+            <span class="photo-badge-title">FIONA JUNITA</span>
+            <span class="photo-badge-sub">Designer / Artist</span>
+          </div>
+        </div>
+        <!-- Decorative Red/Blue Accent Blocks -->
+        <div class="photo-accent-red"></div>
+        <div class="photo-accent-blue"></div>
+      </div>
+
+      <!-- Bio Content -->
+      <div class="about-text-content">
+        <div class="section-tag red-tag">PROFILE & INTRODUCTION</div>
+        <h2 class="section-title">
+          TURNING IMAGINATIVE IDEAS INTO <span class="highlight-red">COMPELLING REALITY</span>
+        </h2>
+        
+        <div class="bio-lead-quote">
+          "I am a graphic designer who also works in the illustration sector. I have dabbled in various types of design and enjoy creating ideas and bringing them to life. I am also very eager to learn more to further enhance my abilities."
+        </div>
+
+        <div class="about-pillars">
+          <div class="pillar-item">
+            <div class="pillar-icon pillar-red">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+            </div>
+            <div>
+              <h4>Visual Identity & Branding</h4>
+              <p>Crafting memorable logos, iconography, marketing assets, and retail packaging with precision.</p>
+            </div>
+          </div>
+
+          <div class="pillar-item">
+            <div class="pillar-icon pillar-blue">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+            </div>
+            <div>
+              <h4>Character Art & Concept Design</h4>
+              <p>Dynamic digital illustration, fantasy worldbuilding, character turnarounds, and costume designs.</p>
+            </div>
+          </div>
+
+          <div class="pillar-item">
+            <div class="pillar-icon pillar-dark">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><line x1="9" y1="7" x2="15" y2="7"/><line x1="9" y1="11" x2="15" y2="11"/></svg>
+            </div>
+            <div>
+              <h4>Editorial & Zine Production</h4>
+              <p>Multi-page publication layout, comic paneling, educational infographics, and print-ready typography.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-contact-strip">
+          <a href="mailto:Fionajunita11062004@gmail.com" class="contact-pill">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            <span>Fionajunita11062004@gmail.com</span>
+          </a>
+          <a href="https://www.linkedin.com/in/fiona-junita" target="_blank" rel="noopener noreferrer" class="contact-pill">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45a1.64 1.64 0 1 0 0 3.28 1.64 1.64 0 0 0 0-3.28z"/></svg>
+            <span>linkedin.com/in/fiona-junita</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills-section" id="skills">
+    <div class="section-container">
+      <div class="section-header">
+        <div class="section-tag blue-tag">EXPERTISE & TOOLS</div>
+        <h2 class="section-title">SKILLS & CREATIVE STRENGTHS</h2>
+        <p class="section-subtitle">Proficient in industry-standard design tools and multidisciplinary workflows.</p>
+      </div>
+
+      <div class="skills-showcase-grid">
+        <!-- Software Skills Card with Character Art -->
+        <div class="skills-card-main">
+          <div class="card-header-bar bar-blue">
+            <span class="header-label">SOFTWARE PROFICIENCY</span>
+            <span class="header-sub">PRIMARY TOOLKIT</span>
+          </div>
+
+          <div class="skills-split-body">
+            <!-- Software List -->
+            <div class="software-pills-list">
+              <!-- Illustrator -->
+              <div class="skill-item">
+                <div class="skill-icon-wrap">
+                  <img src="assets/skills/illustrator.png" alt="Adobe Illustrator" class="skill-app-icon">
+                </div>
+                <div class="skill-details">
+                  <div class="skill-name-row">
+                    <span class="skill-name">ADOBE ILLUSTRATOR</span>
+                    <span class="skill-level">EXPERT</span>
+                  </div>
+                  <div class="skill-bar-track">
+                    <div class="skill-bar-fill bar-red" style="width: 95%;"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Photoshop -->
+              <div class="skill-item">
+                <div class="skill-icon-wrap">
+                  <img src="assets/skills/photoshop.png" alt="Adobe Photoshop" class="skill-app-icon">
+                </div>
+                <div class="skill-details">
+                  <div class="skill-name-row">
+                    <span class="skill-name">ADOBE PHOTOSHOP</span>
+                    <span class="skill-level">EXPERT</span>
+                  </div>
+                  <div class="skill-bar-track">
+                    <div class="skill-bar-fill bar-blue" style="width: 95%;"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- InDesign -->
+              <div class="skill-item">
+                <div class="skill-icon-wrap">
+                  <img src="assets/skills/indesign.png" alt="Adobe InDesign" class="skill-app-icon">
+                </div>
+                <div class="skill-details">
+                  <div class="skill-name-row">
+                    <span class="skill-name">ADOBE INDESIGN</span>
+                    <span class="skill-level">PROFICIENT</span>
+                  </div>
+                  <div class="skill-bar-track">
+                    <div class="skill-bar-fill bar-red" style="width: 88%;"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Figma -->
+              <div class="skill-item">
+                <div class="skill-icon-wrap">
+                  <img src="assets/skills/figma.png" alt="Figma" class="skill-app-icon">
+                </div>
+                <div class="skill-details">
+                  <div class="skill-name-row">
+                    <span class="skill-name">FIGMA</span>
+                    <span class="skill-level">PROFICIENT</span>
+                  </div>
+                  <div class="skill-bar-track">
+                    <div class="skill-bar-fill bar-blue" style="width: 85%;"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Canva -->
+              <div class="skill-item">
+                <div class="skill-icon-wrap">
+                  <img src="assets/skills/canva.png" alt="Canva" class="skill-app-icon">
+                </div>
+                <div class="skill-details">
+                  <div class="skill-name-row">
+                    <span class="skill-name">CANVA</span>
+                    <span class="skill-level">EXPERT</span>
+                  </div>
+                  <div class="skill-bar-track">
+                    <div class="skill-bar-fill bar-red" style="width: 92%;"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Live2D Cubism -->
+              <div class="skill-item">
+                <div class="skill-icon-wrap">
+                  <img src="assets/skills/live2d.png" alt="Live2D Cubism" class="skill-app-icon">
+                </div>
+                <div class="skill-details">
+                  <div class="skill-name-row">
+                    <span class="skill-name">LIVE2D CUBISM</span>
+                    <span class="skill-level">INTERMEDIATE</span>
+                  </div>
+                  <div class="skill-bar-track">
+                    <div class="skill-bar-fill bar-blue" style="width: 78%;"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Zappar AR -->
+              <div class="skill-item">
+                <div class="skill-icon-wrap">
+                  <img src="assets/skills/zappar.png" alt="Zappar AR" class="skill-app-icon">
+                </div>
+                <div class="skill-details">
+                  <div class="skill-name-row">
+                    <span class="skill-name">ZAPPAR (AR EXPERIENCE)</span>
+                    <span class="skill-level">INTERMEDIATE</span>
+                  </div>
+                  <div class="skill-bar-track">
+                    <div class="skill-bar-fill bar-red" style="width: 75%;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Side Artwork (Cyberpunk Squad from PDF Slide 4) -->
+            <div class="skills-character-art">
+              <div class="art-badge-overlay">CYBERPUNK OFFICERS</div>
+              <img src="assets/characters/cyberpunk_squad.png" alt="Cyberpunk Officer Squad Art by Fiona Junita" class="skills-squad-img">
+            </div>
+          </div>
+        </div>
+
+        <!-- Professional & Interpersonal Skills (Slide 5) -->
+        <div class="skills-card-secondary">
+          <div class="card-header-bar bar-red">
+            <span class="header-label">CORE CAPABILITIES</span>
+            <span class="header-sub">WORKFLOW ATTRIBUTES</span>
+          </div>
+
+          <div class="secondary-content-wrap">
+            <div class="capabilities-list">
+              <div class="cap-box">
+                <div class="cap-num">01</div>
+                <div class="cap-text">
+                  <h3>FLUENT IN ENGLISH</h3>
+                  <p>Capable of articulating creative direction, collaborating across international teams, and producing polished bilingual design copy.</p>
+                </div>
+              </div>
+
+              <div class="cap-box">
+                <div class="cap-num">02</div>
+                <div class="cap-text">
+                  <h3>HIGHLY ADAPTABLE</h3>
+                  <p>Quick to embrace novel tools, evolving project briefs, diverse art directions, and fast-paced collaborative environments.</p>
+                </div>
+              </div>
+
+              <div class="cap-box">
+                <div class="cap-num">03</div>
+                <div class="cap-text">
+                  <h3>CREATIVE THINKING</h3>
+                  <p>Translating conceptual narratives into striking visuals, bridging classic graphic design rules with experimental illustration.</p>
+                </div>
+              </div>
+
+              <div class="cap-box">
+                <div class="cap-num">04</div>
+                <div class="cap-text">
+                  <h3>TECH LITERATE</h3>
+                  <p>Deep comfort with digital rendering pipelines, AR asset preparation, 2D mesh rigging, and multi-format publication outputs.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="nobleman-art-panel">
+              <img src="assets/characters/nobleman_rose.png" alt="Nobleman with Rose by Fiona Junita" class="nobleman-img">
+              <div class="art-caption">CHARACTER STUDY: CRIMSON NOBILITY</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project 1: PIXELS Zine (Slides 6-9) -->
+  <section class="project-feature-section" id="zine">
+    <!-- Playful Climbing Stick Figure Doodle Perched on Section Corner -->
+    <div class="doodle-stick-climb-wrap" title="Doodle from Fiona's PDF">
+      <img src="assets/doodles/stick_climb.png" alt="Playful Red Stick Figure Climbing" class="doodle-stick-climb">
+    </div>
+
+    <div class="section-container">
+      <div class="project-header-block">
+        <div class="project-meta-pills">
+          <span class="meta-pill red-pill">EDITORIAL & COMIC</span>
+          <span class="meta-pill dark-pill">ZINE DESIGN</span>
+          <span class="meta-pill blue-pill">PIXEL ART CULTURE</span>
+        </div>
+        <h2 class="project-main-title">
+          PIXELS: <span class="highlight-red">AN INTERACTIVE ZINE</span>
+        </h2>
+        <p class="project-lead-desc">
+          A vibrant printed and digital zine exploring the nostalgia, history, and craftsmanship of pixel art. Featuring original comic stories, character worldbuilding, historical tributes to gaming pioneers, and interactive creative activities.
+        </p>
+      </div>
+
+      <!-- Zine Showcase Tabs / Subnav -->
+      <div class="zine-tab-nav" id="zineTabNav">
+        <button class="zine-tab-btn active" data-target="zine-overview">Cover & Overview</button>
+        <button class="zine-tab-btn" data-target="zine-characters">Characters: Reyna & Byron</button>
+        <button class="zine-tab-btn" data-target="zine-comic">Comic Strip: The Glitch</button>
+        <button class="zine-tab-btn" data-target="zine-history">Origins of Icons</button>
+        <button class="zine-tab-btn" data-target="zine-guide">Pixel Art Guide</button>
+        <button class="zine-tab-btn highlight-tab" data-target="zine-canvas">Draw Pixel Art!</button>
+      </div>
+
+      <!-- Tab Content 1: Overview -->
+      <div class="zine-tab-panel active" id="zine-overview">
+        <div class="zine-two-col">
+          <div class="zine-cover-display">
+            <div class="zine-img-card zoomable" data-img="assets/zine/zine_cover.png" data-caption="PIXELS Zine Front & Back Cover Artwork">
+              <img src="assets/zine/zine_cover.png" alt="PIXELS Zine Cover Design" class="zine-hero-img">
+              <div class="zoom-indicator">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                Click to Enlarge
+              </div>
+            </div>
+          </div>
+          <div class="zine-overview-info">
+            <div class="zine-info-box">
+              <h3>CONCEPT & ART DIRECTION</h3>
+              <p>
+                Created with the vision of making game culture accessible and tactile. The visual language blends retro CRT screen scanlines, neon pixel palettes, and contemporary magazine typography.
+              </p>
+            </div>
+            <div class="zine-features-grid">
+              <div class="zfeature">
+                <span class="zicon">&check;</span>
+                <div>
+                  <strong>Original Comic Lore</strong>
+                  <p>Follows duo Reyna & Byron traversing digital landscapes.</p>
+                </div>
+              </div>
+              <div class="zfeature">
+                <span class="zicon">&check;</span>
+                <div>
+                  <strong>Tribute to Gaming Legends</strong>
+                  <p>In-depth spotlight on Toru Iwatani, Masahiro Sakurai, and Shigeru Miyamoto.</p>
+                </div>
+              </div>
+              <div class="zfeature">
+                <span class="zicon">&check;</span>
+                <div>
+                  <strong>Educational Infographic</strong>
+                  <p>Step-by-step breakdown of outlines, shading, and cluster theory.</p>
+                </div>
+              </div>
+              <div class="zfeature">
+                <span class="zicon">&check;</span>
+                <div>
+                  <strong>Hands-on Activity Pages</strong>
+                  <p>Grid-based exercises inviting readers to fill and color pixel sprites.</p>
+                </div>
+              </div>
+            </div>
+            <div class="zine-card-preview zoomable" data-img="assets/zine/what_is_pixel_art.png" data-caption="What is Pixel Art? - Editorial Feature Spread">
+              <img src="assets/zine/what_is_pixel_art.png" alt="What is Pixel Art Editorial Spread" class="zine-sub-img">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab Content 2: Characters -->
+      <div class="zine-tab-panel" id="zine-characters">
+        <div class="characters-spread">
+          <div class="zine-img-card zoomable" data-img="assets/zine/meet_characters.png" data-caption="Meet the Characters: Reyna and Byron">
+            <img src="assets/zine/meet_characters.png" alt="Meet the Characters: Reyna and Byron" class="zine-full-img">
+          </div>
+          
+          <div class="character-spotlight-cards">
+            <!-- Reyna Card -->
+            <div class="char-card char-reyna">
+              <div class="char-img-wrap">
+                <img src="assets/characters/reyna_standing.png" alt="Reyna Character Design" class="char-cutout">
+              </div>
+              <div class="char-meta">
+                <div class="char-tag red-pill">PROTAGONIST</div>
+                <h3>REYNA</h3>
+                <p>Energetic, adventurous, and curious. Equipped with tech goggles and an explorer jacket, she navigates glitches with bold optimism.</p>
+              </div>
+            </div>
+
+            <!-- Byron Card -->
+            <div class="char-card char-byron">
+              <div class="char-img-wrap">
+                <img src="assets/characters/byron_standing.png" alt="Byron Character Design" class="char-cutout">
+              </div>
+              <div class="char-meta">
+                <div class="char-tag blue-pill">TACTICIAN</div>
+                <h3>BYRON</h3>
+                <p>Calculated, observant, and quiet. Wearing a protective hooded coat and tactical gear, Byron provides grounded strategy amidst cyber chaos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab Content 3: Comic Strip -->
+      <div class="zine-tab-panel" id="zine-comic">
+        <div class="comic-strip-container">
+          <div class="comic-panel-card zoomable" data-img="assets/zine/comic_panel1.png" data-caption="PIXELS Comic Strip - Part 1: The Glitch Arrives">
+            <div class="panel-header">PART 1: THE DISCOVERY</div>
+            <img src="assets/zine/comic_panel1.png" alt="PIXELS Comic Part 1" class="comic-img">
+          </div>
+          <div class="comic-panel-card zoomable" data-img="assets/zine/comic_panel2.png" data-caption="PIXELS Comic Strip - Part 2: Through the Grid">
+            <div class="panel-header">PART 2: ENTERING THE MAINFRAME</div>
+            <img src="assets/zine/comic_panel2.png" alt="PIXELS Comic Part 2" class="comic-img">
+          </div>
+          <div class="comic-panel-card zoomable" data-img="assets/zine/comic_panel3.png" data-caption="PIXELS Comic Strip - Part 3: The Resolution">
+            <div class="panel-header">PART 3: RESTORING THE CODE</div>
+            <img src="assets/zine/comic_panel3.png" alt="PIXELS Comic Part 3" class="comic-img">
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab Content 4: Origins of Icons -->
+      <div class="zine-tab-panel" id="zine-history">
+        <div class="origins-spread">
+          <div class="zine-img-card zoomable" data-img="assets/zine/origins_of_icons.png" data-caption="Origins of Icons - Toru Iwatani, Masahiro Sakurai, Shigeru Miyamoto">
+            <img src="assets/zine/origins_of_icons.png" alt="Origins of Icons Editorial Feature" class="zine-full-img">
+          </div>
+          <div class="origins-context">
+            <div class="origins-callout">
+              <h3>TRIBUTE TO THE PIONEERS</h3>
+              <p>
+                Pixel art's charm was born out of intense hardware limitations. This spread celebrates:
+              </p>
+              <ul class="origins-list">
+                <li><strong>Toru Iwatani (1980):</strong> Creator of <em>Pac-Man</em>, designing instantly identifiable shapes within an 8x8 dot matrix.</li>
+                <li><strong>Masahiro Sakurai (1992):</strong> Creator of <em>Kirby</em>, utilizing simple geometric silhouettes to convey immense personality on the original monochrome Game Boy.</li>
+                <li><strong>Shigeru Miyamoto (1981):</strong> Creator of <em>Mario & Donkey Kong</em>, giving Mario his iconic mustache and cap to bypass the impossibility of rendering mouth and hair movements in early arcade hardware.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab Content 5: Pixel Art Guide -->
+      <div class="zine-tab-panel" id="zine-guide">
+        <div class="guide-spread">
+          <div class="guide-img-wrap zoomable" data-img="assets/zine/pixel_art_guide.png" data-caption="A Simple Guide to Making Pixel Art - Infographic Poster">
+            <img src="assets/zine/pixel_art_guide.png" alt="A Simple Guide to Making Pixel Art" class="guide-poster-img">
+          </div>
+          <div class="guide-takeaways">
+            <div class="section-tag red-tag">INFOGRAPHIC BREAKDOWN</div>
+            <h3>A SIMPLE GUIDE TO MAKING PIXEL ART</h3>
+            <p>Designed as an engaging double-page foldout poster for readers to learn fundamental sprite techniques:</p>
+            <div class="guide-steps">
+              <div class="gstep">
+                <span class="gnum">1</span>
+                <div>
+                  <strong>Canvas & Grid Setup</strong>
+                  <p>Starting with low resolutions (16x16, 32x32) to master proportion before scale.</p>
+                </div>
+              </div>
+              <div class="gstep">
+                <span class="gnum">2</span>
+                <div>
+                  <strong>Line Art & Outlines</strong>
+                  <p>Preventing "jaggies" by ensuring smooth step counts (2-2-2 or 1-1-1).</p>
+                </div>
+              </div>
+              <div class="gstep">
+                <span class="gnum">3</span>
+                <div>
+                  <strong>Flat Color Blocking</strong>
+                  <p>Restricting color ramps to 3–4 tones per material for sharp readability.</p>
+                </div>
+              </div>
+              <div class="gstep">
+                <span class="gnum">4</span>
+                <div>
+                  <strong>Shading & Dithering</strong>
+                  <p>Employing intentional light sources, edge highlights, and checkerboard textures.</p>
+                </div>
+              </div>
+            </div>
+            <div class="try-preview zoomable" data-img="assets/zine/try_it_yourself.png" data-caption="Try It Yourself Activity Spread">
+              <img src="assets/zine/try_it_yourself.png" alt="Try It Yourself Activity Spread" class="try-thumb">
+              <span class="try-label">Slide 8: "Try It Yourself" Exercise Page</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab Content 6: Interactive Pixel Drawing Canvas (Based on Slide 8!) -->
+      <div class="zine-tab-panel" id="zine-canvas">
+        <div class="interactive-canvas-container">
+          <div class="canvas-intro">
+            <div class="section-tag red-tag">LIVE INTERACTIVE FEATURE</div>
+            <h3>TRY IT YOURSELF: 16&times;16 PIXEL CANVAS</h3>
+            <p>
+              Directly inspired by Slide 8 of Fiona's zine ("Try It Yourself"), unleash your inner game artist! Pick a retro color, draw pixel-by-pixel, erase, or pick from quick presets to see your sprite in real time.
+            </p>
+          </div>
+
+          <div class="pixel-tool-workspace">
+            <div class="pixel-canvas-panel">
+              <canvas id="pixelArtCanvas" width="384" height="384" class="pixel-grid-canvas"></canvas>
+            </div>
+
+            <div class="pixel-controls-panel">
+              <div class="palette-header">SELECT COLOR</div>
+              <div class="pixel-palette" id="pixelPalette">
+                <button class="color-btn active" style="background-color: #E51B24;" data-color="#E51B24" title="Crimson Red"></button>
+                <button class="color-btn" style="background-color: #0B2B9E;" data-color="#0B2B9E" title="Royal Blue"></button>
+                <button class="color-btn" style="background-color: #FBBF24;" data-color="#FBBF24" title="Pixel Yellow"></button>
+                <button class="color-btn" style="background-color: #10B981;" data-color="#10B981" title="Emerald Green"></button>
+                <button class="color-btn" style="background-color: #06B6D4;" data-color="#06B6D4" title="Cyan"></button>
+                <button class="color-btn" style="background-color: #8B5CF6;" data-color="#8B5CF6" title="Arcane Purple"></button>
+                <button class="color-btn" style="background-color: #111827;" data-color="#111827" title="Ink Black"></button>
+                <button class="color-btn" style="background-color: #FFFFFF; border: 2px solid #ccc;" data-color="#FFFFFF" title="Canvas White"></button>
+              </div>
+
+              <div class="active-color-display">
+                <span class="active-color-preview" id="activeColorSample" style="background-color: #E51B24;"></span>
+                <span id="activeColorHex">#E51B24</span>
+              </div>
+
+              <div class="tool-actions-row">
+                <button id="eraserBtn" class="tool-btn">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M16.24 3.56l4.95 4.94c.78.79.78 2.05 0 2.84L12 20.5H2v-2l8.84-8.84-2.83-2.83 8.23-3.27z"/></svg>
+                  Eraser
+                </button>
+                <button id="clearCanvasBtn" class="tool-btn danger-btn">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+                  Clear
+                </button>
+                <button id="downloadPixelBtn" class="tool-btn accent-btn">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                  Export PNG
+                </button>
+              </div>
+
+              <div class="sample-presets">
+                <span class="preset-label">Load Sprite Presets:</span>
+                <div class="preset-buttons">
+                  <button class="preset-btn" data-preset="heart">&hearts; Heart</button>
+                  <button class="preset-btn" data-preset="sword">&#9876; Sword</button>
+                  <button class="preset-btn" data-preset="reyna">&#9733; Reyna Star</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project 2: Concept Art (Slides 8-9) -->
+  <section class="concept-section" id="concept">
+    <div class="section-container">
+      <div class="section-header">
+        <div class="section-tag red-tag">DEVELOPMENT PIPELINE</div>
+        <h2 class="section-title">CONCEPT ART & ITERATIONS</h2>
+        <p class="section-subtitle">Sketches, turnaround sheets, and logo design exploration behind the project.</p>
+      </div>
+
+      <div class="concept-grid">
+        <!-- Game Concept Notes -->
+        <div class="concept-card zoomable" data-img="assets/concept_art/game_concept_sketch.png" data-caption="Game Mechanics, World Rules & Thumbnail Sketches">
+          <div class="concept-img-frame">
+            <img src="assets/concept_art/game_concept_sketch.png" alt="Game Concept Sketch" class="concept-img">
+          </div>
+          <div class="concept-details">
+            <span class="concept-tag">IDEATION</span>
+            <h3>GAME CONCEPT & WORLD SKETCH</h3>
+            <p>Early explorations mapping level obstacles, mechanic triggers, and puzzle progression.</p>
+          </div>
+        </div>
+
+        <!-- Reyna Character Turnaround -->
+        <div class="concept-card zoomable" data-img="assets/concept_art/reyna_concept.png" data-caption="Reyna Character Turnaround & Silhouette Exploration">
+          <div class="concept-img-frame">
+            <img src="assets/concept_art/reyna_concept.png" alt="Reyna Concept Turnaround" class="concept-img">
+          </div>
+          <div class="concept-details">
+            <span class="concept-tag">CHARACTER DESIGN</span>
+            <h3>REYNA MODEL SHEET</h3>
+            <p>Costume iteration, color balance testing, and accessory breakdown for 2D animation.</p>
+          </div>
+        </div>
+
+        <!-- Byron Character Turnaround -->
+        <div class="concept-card zoomable" data-img="assets/concept_art/byron_concept.png" data-caption="Byron Costume, Hood & Pose Turnaround Exploration">
+          <div class="concept-img-frame">
+            <img src="assets/concept_art/byron_concept.png" alt="Byron Concept Design" class="concept-img">
+          </div>
+          <div class="concept-details">
+            <span class="concept-tag">CHARACTER DESIGN</span>
+            <h3>BYRON MODEL SHEET</h3>
+            <p>Hood silhouette, weapon sling details, and color harmony alongside Reyna.</p>
+          </div>
+        </div>
+
+        <!-- Zine Layout Iterations -->
+        <div class="concept-card zoomable" data-img="assets/concept_art/zine_layout_iterations.png" data-caption="Zine Page Layout Thumbnails & Grid Flow Exploration">
+          <div class="concept-img-frame">
+            <img src="assets/concept_art/zine_layout_iterations.png" alt="Zine Layout Iterations" class="concept-img">
+          </div>
+          <div class="concept-details">
+            <span class="concept-tag">EDITORIAL</span>
+            <h3>PAGE LAYOUT THUMBNAILS</h3>
+            <p>Rapid grid prototypes establishing balance between visual storytelling and educational text.</p>
+          </div>
+        </div>
+
+        <!-- Logo Iteration 1 -->
+        <div class="concept-card zoomable" data-img="assets/concept_art/pixels_logo_green.png" data-caption="PIXELS Logo Concept A: 8-Bit Emerald Arcade Grid">
+          <div class="concept-img-frame logo-frame">
+            <img src="assets/concept_art/pixels_logo_green.png" alt="PIXELS Logo Green Arcade Variant" class="concept-img logo-img">
+          </div>
+          <div class="concept-details">
+            <span class="concept-tag">BRAND IDENTITY</span>
+            <h3>LOGO ITERATION: ARCADE GREEN</h3>
+            <p>Chunky geometric pixel typography reminiscent of 80s arcade cabinet marquee banners.</p>
+          </div>
+        </div>
+
+        <!-- Logo Iteration 2 -->
+        <div class="concept-card zoomable" data-img="assets/concept_art/pixels_logo_skyline.png" data-caption="PIXELS Logo Concept B: Cyberpunk City Skyline Grid">
+          <div class="concept-img-frame logo-frame">
+            <img src="assets/concept_art/pixels_logo_skyline.png" alt="PIXELS Logo Skyline Variant" class="concept-img logo-img">
+          </div>
+          <div class="concept-details">
+            <span class="concept-tag">BRAND IDENTITY</span>
+            <h3>LOGO ITERATION: CITY SKYLINE</h3>
+            <p>Futuristic city skyline silhouette integrated into the letters with electric blue gradients.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project 3: Digital Illustrations (Slides 10-12) -->
+  <section class="illustrations-section" id="illustrations">
+    <div class="section-container">
+      <div class="section-header">
+        <div class="section-tag red-tag">DIGITAL PAINTING & FINE ART</div>
+        <h2 class="section-title">ILLUSTRATIONS</h2>
+        <p class="section-subtitle">Vibrant digital artworks exploring fantasy, folklore, celestial dreams, and dynamic composition.</p>
+      </div>
+
+      <!-- Masterpiece Feature Card: Cosmic Galaxy Hair (Slide 10) -->
+      <div class="masterpiece-card zoomable" data-img="assets/illustrations/starry_hair_cosmic.png" data-caption="Cosmic Galaxy / Starry Night Hair Digital Painting by Fiona Junita">
+        <div class="masterpiece-art-side">
+          <img src="assets/illustrations/starry_hair_cosmic.png" alt="Starry Night Galaxy Hair Illustration" class="masterpiece-img">
+          <div class="star-accent star-1">&#10022;</div>
+          <div class="star-accent star-2">&#10022;</div>
+          <div class="star-accent star-3">&#10024;</div>
+        </div>
+        <div class="masterpiece-info-side">
+          <div class="card-pill gold-pill">FEATURED WORK</div>
+          <h3 class="masterpiece-title">COSMIC NIGHT: THE CELESTIAL FLOW</h3>
+          <p class="masterpiece-desc">
+            A celebration of Vincent van Gogh's <em>The Starry Night</em> reimagined through contemporary anime character art. Swirling galaxies, vibrant swirling strokes, crescent moons, and glowing nebulae cascade through flowing tresses of hair.
+          </p>
+          <div class="masterpiece-meta-list">
+            <div class="mm-item">
+              <span class="mm-label">Medium</span>
+              <span class="mm-val">Digital Painting (Adobe Photoshop & CSP)</span>
+            </div>
+            <div class="mm-item">
+              <span class="mm-label">Theme</span>
+              <span class="mm-val">Post-Impressionism & Anime Fusion</span>
+            </div>
+            <div class="mm-item">
+              <span class="mm-label">Palette</span>
+              <span class="mm-val">Ultramarine, Solar Gold, Midnight Indigo</span>
+            </div>
+          </div>
+          <div class="click-to-view-hint">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            Click image to inspect high-resolution details
+          </div>
+        </div>
+      </div>
+
+      <!-- 4-Artwork Gallery Grid (Slides 11-12) -->
+      <div class="illustrations-gallery-grid">
+        <!-- 1. Red Thread & Shrine Maiden -->
+        <div class="art-card zoomable" data-img="assets/illustrations/red_thread_shrine_maiden.png" data-caption="Red Thread of Fate & Shrine Maiden with Katana">
+          <div class="art-img-box">
+            <img src="assets/illustrations/red_thread_shrine_maiden.png" alt="Red Thread of Fate Shrine Maiden" class="gallery-art-img">
+            <div class="art-overlay-tag">FOLKLORE</div>
+          </div>
+          <div class="art-card-body">
+            <h4>THE RED STRING OF DESTINY</h4>
+            <p>A shrine maiden poised with a gleaming katana, encircled by karmic threads and fluttering cranes.</p>
+          </div>
+        </div>
+
+        <!-- 2. Crimson Flower Noble -->
+        <div class="art-card zoomable" data-img="assets/illustrations/crimson_flower_noble.png" data-caption="Noble in Crimson Garb with Gold Floral Accents">
+          <div class="art-img-box">
+            <img src="assets/illustrations/crimson_flower_noble.png" alt="Noble with Crimson Flower" class="gallery-art-img">
+            <div class="art-overlay-tag">ELEGANCE</div>
+          </div>
+          <div class="art-card-body">
+            <h4>CRIMSON NOBLE BLOOM</h4>
+            <p>Intricate brocade patterns, ornate hairpins, and subtle dramatic lighting creating quiet regal elegance.</p>
+          </div>
+        </div>
+
+        <!-- 3. Lightning Magic Trio -->
+        <div class="art-card zoomable" data-img="assets/illustrations/lightning_arcane_trio.png" data-caption="Lightning & Arcane Magic Heroic Trio">
+          <div class="art-img-box">
+            <img src="assets/illustrations/lightning_arcane_trio.png" alt="Lightning Arcane Trio" class="gallery-art-img">
+            <div class="art-overlay-tag">ACTION</div>
+          </div>
+          <div class="art-card-body">
+            <h4>ARCANE LIGHTNING TRIO</h4>
+            <p>Heroic ensemble casting high-voltage electrical spells with dynamic foreshortening.</p>
+          </div>
+        </div>
+
+        <!-- 4. Fire & Water Duality -->
+        <div class="art-card zoomable" data-img="assets/illustrations/fire_water_duality.png" data-caption="Elemental Duality: Fire & Water Dual Wield">
+          <div class="art-img-box">
+            <img src="assets/illustrations/fire_water_duality.png" alt="Elemental Duality Fire and Water" class="gallery-art-img">
+            <div class="art-overlay-tag">ELEMENTAL</div>
+          </div>
+          <div class="art-card-body">
+            <h4>ELEMENTAL DUALITY</h4>
+            <p>Harmonizing opposing elemental forces of surging tidal water and blazing fire torrents.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project 4: Promotional Material (Slides 13-15) -->
+  <section class="promotional-section" id="promotional">
+    <div class="section-container">
+      <div class="promo-header-wrapper">
+        <div class="promo-title-area">
+          <div class="section-tag blue-tag">COMMERCIAL & MARKETING</div>
+          <h2 class="section-title">PROMOTIONAL MATERIAL</h2>
+          <p class="section-subtitle">Packaging design, trade booth displays, retail shelf talkers, digital advertising, and mobile application UI.</p>
+        </div>
+
+        <!-- Kitsune Mascot Pointing / Popping Out -->
+        <div class="kitsune-mascot-wrap">
+          <img src="assets/promotional/kitsune_pointing.png" alt="Kitsune mascot pointing" class="kitsune-mascot-img">
+          <div class="speech-bubble">Check out my commercial works!</div>
+        </div>
+      </div>
+
+      <!-- Commercial Grid -->
+      <div class="promo-showcase-grid">
+        <!-- 1. Interbat Dental Product Booth -->
+        <div class="promo-card card-tall zoomable" data-img="assets/promotional/interbat_dental_booth.png" data-caption="Interbat Dental Exhibition Booth & Poster Stand Design">
+          <div class="promo-img-wrapper">
+            <img src="assets/promotional/interbat_dental_booth.png" alt="Interbat Dental Booth Display" class="promo-img">
+          </div>
+          <div class="promo-meta">
+            <span class="promo-client">INTERBAT DENTAL</span>
+            <h3>EXHIBITION BOOTH & BANNERS</h3>
+            <p>Clean medical corporate branding, informational hierarchy, and roll-up exhibition stands.</p>
+          </div>
+        </div>
+
+        <!-- 2. Pocky Strawberry Banner -->
+        <div class="promo-card card-vertical zoomable" data-img="assets/promotional/pocky_splash_banner.png" data-caption="Pocky Strawberry Splash Refreshment Poster">
+          <div class="promo-img-wrapper">
+            <img src="assets/promotional/pocky_splash_banner.png" alt="Pocky Strawberry Splash Banner" class="promo-img">
+          </div>
+          <div class="promo-meta">
+            <span class="promo-client">POCKY</span>
+            <h3>STRAWBERRY SPLASH CAMPAIGN</h3>
+            <p>Dynamic splash water/milk composite and bold consumer appetite appeal.</p>
+          </div>
+        </div>
+
+        <!-- 3. SilverQueen Chocolate Banner -->
+        <div class="promo-card card-wide zoomable" data-img="assets/promotional/silverqueen_chocolate.png" data-caption="SilverQueen Chocolate Crunchy Bites Promotional Banner">
+          <div class="promo-img-wrapper">
+            <img src="assets/promotional/silverqueen_chocolate.png" alt="SilverQueen Chocolate Banner" class="promo-img">
+          </div>
+          <div class="promo-meta">
+            <span class="promo-client">SILVERQUEEN</span>
+            <h3>CHOCOLATE CRUNCH CAMPAIGN</h3>
+            <p>Rich confectionary lighting, gold wrapper reflections, and promotional typography.</p>
+          </div>
+        </div>
+
+        <!-- 4. Delisaos Shelf Talker -->
+        <div class="promo-card zoomable" data-img="assets/promotional/delisaos_shelf_talker.png" data-caption="Delisaos Hot Lava Pasta Shelf Talker Retail POSM">
+          <div class="promo-img-wrapper">
+            <img src="assets/promotional/delisaos_shelf_talker.png" alt="Delisaos Pasta Shelf Talker" class="promo-img">
+          </div>
+          <div class="promo-meta">
+            <span class="promo-client">MAMASUKA DELISAOS</span>
+            <h3>HOT LAVA SHELF TALKER (POSM)</h3>
+            <p>Eye-catching supermarket retail wobbler grabbing attention down supermarket aisles.</p>
+          </div>
+        </div>
+
+        <!-- 5. Region Badges App UI -->
+        <div class="promo-card zoomable" data-img="assets/promotional/region_badges_app.png" data-caption="Mobile Application UI: Cultural Region Badges System">
+          <div class="promo-img-wrapper">
+            <img src="assets/promotional/region_badges_app.png" alt="Region Badges App UI Design" class="promo-img">
+          </div>
+          <div class="promo-meta">
+            <span class="promo-client">MOBILE APP DESIGN</span>
+            <h3>INDONESIA REGION BADGES UI</h3>
+            <p>Gamified cultural exploration app interface with collectible regional emblems.</p>
+          </div>
+        </div>
+
+        <!-- 6. YouTube Video Overlay Banner -->
+        <div class="promo-card zoomable" data-img="assets/promotional/youtube_video_overlay.png" data-caption="Digital Media: YouTube Channel Banner & Video Overlay Graphics">
+          <div class="promo-img-wrapper">
+            <img src="assets/promotional/youtube_video_overlay.png" alt="YouTube Video Overlay Graphics" class="promo-img">
+          </div>
+          <div class="promo-meta">
+            <span class="promo-client">DIGITAL BROADCAST</span>
+            <h3>YOUTUBE BRANDED OVERLAY</h3>
+            <p>High-contrast digital overlays designed for clear streaming and video thumbnail visibility.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project 5: Photography & Animation Rigging (Slides 16-18) -->
+  <section class="more-work-section" id="more-work">
+    <div class="section-container">
+      <div class="section-header">
+        <div class="section-tag red-tag">EXPANDED DISCIPLINES</div>
+        <h2 class="section-title">PHOTOGRAPHY & ANIMATION RIGGING</h2>
+        <p class="section-subtitle">Studio portrait lighting, cultural textiles, and 2D character rigging systems.</p>
+      </div>
+
+      <!-- Studio Photography Showcase -->
+      <div class="photography-block">
+        <div class="sub-discipline-header">
+          <div class="header-with-avatar">
+            <img src="assets/characters/photographer_girl.png" alt="Anime girl photographer" class="photographer-avatar">
+            <div>
+              <span class="sub-tag">01 / STUDIO LIGHTING & PORTRAITURE</span>
+              <h3>PHOTOGRAPHY PROJECTS</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="photos-duo-grid">
+          <!-- Batik Floral Portrait -->
+          <div class="photo-card zoomable" data-img="assets/photography/batik_floral_portrait.png" data-caption="Batik Floral Portrait - Traditional Heritage & Natural Light Study">
+            <div class="photo-card-img-box">
+              <img src="assets/photography/batik_floral_portrait.png" alt="Batik Floral Cultural Portrait" class="photo-img">
+            </div>
+            <div class="photo-card-info">
+              <h4>INDONESIAN BATIK HERITAGE PORTRAIT</h4>
+              <p>Natural lighting study accentuating the rich intricate motifs of Indonesian batik paired with delicate floral styling.</p>
+            </div>
+          </div>
+
+          <!-- Dramatic Red Suit Studio -->
+          <div class="photo-card zoomable" data-img="assets/photography/red_suit_dramatic_studio.png" data-caption="Dramatic Red Suit Studio Portrait - High Contrast High Fashion Study">
+            <div class="photo-card-img-box">
+              <img src="assets/photography/red_suit_dramatic_studio.png" alt="Red Suit Dramatic Studio Portrait" class="photo-img">
+            </div>
+            <div class="photo-card-info">
+              <h4>DRAMATIC CRIMSON SUIT FASHION STUDY</h4>
+              <p>Sculptural rim lighting, deep shadows, and bold monochromatic red styling creating high-fashion editorial intensity.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Animation Rigging & Cute Characters (Slide 18) -->
+      <div class="animation-block">
+        <div class="sub-discipline-header">
+          <span class="sub-tag">02 / 2D RIGGING & CHARACTER ASSETS</span>
+          <h3>ANIMATION & PUPPET RIGGING</h3>
+        </div>
+
+        <div class="animation-showcase-grid">
+          <!-- Marionette Puppet with Interactive Hover Swing -->
+          <div class="puppet-interactive-card">
+            <div class="puppet-stage">
+              <div class="puppet-hanger"></div>
+              <div class="puppet-strings">
+                <span class="string string-left"></span>
+                <span class="string string-center"></span>
+                <span class="string string-right"></span>
+              </div>
+              <img src="assets/characters/marionette_puppet.png" alt="Marionette Puppet Rigged by Fiona Junita" class="marionette-img" id="marionettePuppet">
+            </div>
+            <div class="puppet-info">
+              <span class="puppet-tag">LIVE2D / MESH RIGGING</span>
+              <h4>MARIONETTE STRINGS STUDY</h4>
+              <p>Character rigged for 2D deformation, joint hierarchy, and bone physics. Hover over the puppet to watch it swing!</p>
+            </div>
+          </div>
+
+          <!-- Animated Panda Characters -->
+          <div class="panda-stickers-card">
+            <div class="panda-card-header">
+              <span class="panda-tag">CHARACTER ASSETS</span>
+              <h4>PANDA MASCOT EXPRESSIONS</h4>
+            </div>
+            <div class="pandas-row">
+              <!-- Panda Brushing -->
+              <div class="panda-item zoomable" data-img="assets/animation/panda_brushing_tooth.png" data-caption="Panda Character Brushing Tooth with Ice Cream Cone">
+                <img src="assets/animation/panda_brushing_tooth.png" alt="Panda Brushing Tooth with Ice Cream" class="panda-img">
+                <span class="panda-caption">Dental Hygiene Campaign</span>
+              </div>
+              <!-- Panda Sitting -->
+              <div class="panda-item zoomable" data-img="assets/animation/panda_sitting.png" data-caption="Cute Baby Panda Sitting Character Asset">
+                <img src="assets/animation/panda_sitting.png" alt="Baby Panda Sitting" class="panda-img">
+                <span class="panda-caption">Curious Idle State</span>
+              </div>
+              <!-- Panda Sleeping -->
+              <div class="panda-item zoomable" data-img="assets/animation/panda_sleeping.png" data-caption="Panda Sleeping with Bubble Character Asset">
+                <img src="assets/animation/panda_sleeping.png" alt="Panda Sleeping" class="panda-img">
+                <span class="panda-caption">Sleeping Animation Loop</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Closing Section (Slide 19 Style) -->
+  <section class="contact-section" id="contact">
+    <!-- Blue Diagonal Overhang Beam with Hanging Stick Figures Doodle! -->
+    <div class="contact-overhang-beam">
+      <div class="stick-hang-wrapper" title="Doodle from Fiona's Slide 19">
+        <img src="assets/doodles/stick_hang.png" alt="Red Stick Figures Hanging from Beam" class="stick-hang-img">
+      </div>
+    </div>
+
+    <div class="section-container contact-container">
+      <div class="contact-header">
+        <h2 class="thank-you-title">THANK YOU!</h2>
+        <div class="thank-you-sub">LET'S CREATE SOMETHING EXTRAORDINARY TOGETHER</div>
+        <p class="contact-lead">
+          Whether you are looking for a brand identity designer, concept illustrator, or collaborative creative partner, I'm always eager to discuss new opportunities.
+        </p>
+      </div>
+
+      <div class="contact-cards-grid">
+        <!-- Email Card with Copy Button -->
+        <div class="contact-card">
+          <div class="c-icon red-bg">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </div>
+          <div class="c-info">
+            <span class="c-label">EMAIL ADDRESS</span>
+            <a href="mailto:Fionajunita11062004@gmail.com" class="c-val">Fionajunita11062004@gmail.com</a>
+          </div>
+          <button class="copy-btn" data-copy="Fionajunita11062004@gmail.com" aria-label="Copy Email Address">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            <span class="tooltip">Copy</span>
+          </button>
+        </div>
+
+        <!-- Phone / WhatsApp Card with Copy Button -->
+        <div class="contact-card">
+          <div class="c-icon blue-bg">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M6.62 10.79a15.053 15.053 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          </div>
+          <div class="c-info">
+            <span class="c-label">PHONE & WHATSAPP</span>
+            <a href="tel:+6285752610026" class="c-val">(62) 85752610026</a>
+          </div>
+          <button class="copy-btn" data-copy="+6285752610026" aria-label="Copy Phone Number">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            <span class="tooltip">Copy</span>
+          </button>
+        </div>
+
+        <!-- LinkedIn Card -->
+        <div class="contact-card">
+          <div class="c-icon dark-bg">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45a1.64 1.64 0 1 0 0 3.28 1.64 1.64 0 0 0 0-3.28z"/></svg>
+          </div>
+          <div class="c-info">
+            <span class="c-label">LINKEDIN PROFILE</span>
+            <a href="https://www.linkedin.com/in/fiona-junita" target="_blank" rel="noopener noreferrer" class="c-val">fiona-junita</a>
+          </div>
+          <a href="https://www.linkedin.com/in/fiona-junita" target="_blank" rel="noopener noreferrer" class="copy-btn" aria-label="Visit LinkedIn">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-pdf-banner">
+        <div class="pdf-banner-content">
+          <div class="pdf-icon-frame">
+            <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
+          </div>
+          <div>
+            <h3>WANT TO REVIEW THE COMPLETE PORTFOLIO?</h3>
+            <p>Download or view the original 19-page slide presentation document.</p>
+          </div>
+        </div>
+        <a href="Portfolio.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+          <span>View Original PDF</span>
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="section-container footer-container">
+      <div class="footer-left">
+        <img src="assets/signature.png" alt="Fiona Junita" class="footer-sig">
+        <p>&copy; 2024 Fiona Junita. All original artworks, characters, and designs are property of Fiona Junita.</p>
+      </div>
+      <div class="footer-right">
+        <a href="#hero" class="back-to-top">
+          <span>Back to Top</span>
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal for Full-Resolution Viewing -->
+  <div class="lightbox-modal" id="lightboxModal" aria-hidden="true" role="dialog">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close Lightbox">&times;</button>
+      <div class="lightbox-img-wrapper">
+        <img src="" alt="" id="lightboxImg" class="lightbox-img">
+      </div>
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
